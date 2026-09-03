@@ -1,15 +1,17 @@
 about:
-  description: a fast and light image viewer
+  description:
+  |
+    a fast and light image viewer
   license: NOASSERTION
   homepage: https://feh.finalrewind.org
   head: cedcae9
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-03T05:13:49Z
+  collectedAt: 2026-09-03T22:35:46Z
 timeline:
   created: 2010-02-05
   lastCommit: 2026-08-31
-  lastRelease: ?
+  lastRelease: 
 popularity:
   star: 1909
   watcher: 30
@@ -23,7 +25,7 @@ language:
   Perl: 31093
   Makefile: 7865
   Shell: 272
-totalLine: 522056
+totalBytes: 522056
 recent:
   last30d:
     since: 2026-08-04
