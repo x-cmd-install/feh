@@ -1,0 +1,61 @@
+about:
+  description:
+  |
+    a fast and light image viewer
+  license: NOASSERTION
+  homepage: https://feh.finalrewind.org
+  head: cedcae9
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-09-04T04:37:39Z
+timeline:
+  created: 2010-02-05
+  lastCommit: 2026-08-31
+  lastRelease: 
+popularity:
+  star: 1909
+  watcher: 30
+  fork: 174
+  release: 0
+  contributor: 71
+  pullRequest: 76
+  issue: 624
+language:
+  C: 482826
+  Perl: 31093
+  Makefile: 7865
+  Shell: 272
+totalBytes: 522056
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 1
+    openIssue: 1
+    commit: 10
+  last90d:
+    since: 2026-06-06
+    release: 0
+    mergedPR: 0
+    openPR: 4
+    closedIssue: 1
+    openIssue: 1
+    commit: 11
+  last180d:
+    since: 2026-03-08
+    release: 0
+    mergedPR: 5
+    openPR: 6
+    closedIssue: 5
+    openIssue: 4
+    commit: 29
+  last360d:
+    since: 2025-09-09
+    release: 0
+    mergedPR: 6
+    openPR: 9
+    closedIssue: 9
+    openIssue: 11
+    commit: 40
