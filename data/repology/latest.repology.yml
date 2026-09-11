@@ -1,122 +1,6 @@
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: 3.2.1
-  origversion: 3.2.1-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "3.2"
-  origversion: 3.2-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "3.3"
-  origversion: 3.3-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 3.4.1
-  origversion: 3.4.1-1
-  status: outdated
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "3.4"
-  origversion: 3.4-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.15"
-  origversion: 1.15-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.18.3
-  origversion: 2.18.3-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.18"
-  origversion: 2.18-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.19.1
-  origversion: 2.19.1-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.19"
-  origversion: 2.19-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.19.2
-  origversion: 2.19.2-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.22.1
-  origversion: 2.22.1-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.20"
-  origversion: 2.20-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.21"
-  origversion: 2.21-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.22"
-  origversion: 2.22-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.22.2
-  origversion: 2.22.2-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.23.1
-  origversion: 2.23.1-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.23"
-  origversion: 2.23-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.23.2
-  origversion: 2.23.2-1
-  status: legacy
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
   version: "2.24"
   origversion: 2.24-1
   status: legacy
@@ -147,6 +31,62 @@
 - repo: aix_osp
   srcname: feh
   visiblename: feh
+  version: 2.26.2
+  origversion: 2.26.2-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.27.1
+  origversion: 2.27.1-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.26.3
+  origversion: 2.26.3-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.26.4
+  origversion: 2.26.4-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.27"
+  origversion: 2.27-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.28.1
+  origversion: 2.28.1-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.28"
+  origversion: 2.28-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.6"
+  origversion: 2.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.6.3
+  origversion: 2.6.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
   version: "3.0"
   origversion: 3.0-1
   status: legacy
@@ -171,15 +111,86 @@
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: 1.14.1
-  origversion: 1.14.1-1
+  version: 3.1.3
+  origversion: 3.1.3-1
   status: legacy
-  vulnerable: true
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: 3.1.3
-  origversion: 3.1.3-1
+  version: 3.2.1
+  origversion: 3.2.1-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "3.2"
+  origversion: 3.2-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "3.3"
+  origversion: 3.3-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 3.4.1
+  origversion: 3.4.1-1
+  status: outdated
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "3.4"
+  origversion: 3.4-1
+  status: legacy
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.6.3
+  origversion: 3.6.3-1
+  status: outdated
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - graphics
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.12.2
+  origversion: 3.12.2-1
+  status: outdated
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - graphics
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.23.1
+  origversion: 2.23.1-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.23"
+  origversion: 2.23-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.23.2
+  origversion: 2.23.2-1
   status: legacy
 - repo: adelie_current
   subrepo: user
@@ -223,44 +234,56 @@
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: 2.26.2
-  origversion: 2.26.2-1
+  version: 2.18.3
+  origversion: 2.18.3-1
   status: legacy
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: 2.26.3
-  origversion: 2.26.3-1
+  version: 2.19.1
+  origversion: 2.19.1-1
   status: legacy
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: 2.26.4
-  origversion: 2.26.4-1
+  version: "2.19"
+  origversion: 2.19-1
   status: legacy
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: 2.27.1
-  origversion: 2.27.1-1
+  version: 2.19.2
+  origversion: 2.19.2-1
   status: legacy
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: "2.27"
-  origversion: 2.27-1
+  version: "2.20"
+  origversion: 2.20-1
   status: legacy
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: 2.28.1
-  origversion: 2.28.1-1
+  version: "2.21"
+  origversion: 2.21-1
   status: legacy
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: "2.28"
-  origversion: 2.28-1
+  version: 2.22.1
+  origversion: 2.22.1-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.22"
+  origversion: 2.22-1
+  status: legacy
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.22.2
+  origversion: 2.22.2-1
   status: legacy
 - repo: alpine_3_17
   subrepo: community
@@ -405,6 +428,18 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT-feh
+- repo: pkgsrc_current
+  srcname: graphics/feh
+  binname: feh
+  visiblename: graphics/feh
+  version: 3.12.4
+  origversion: null
+  status: outdated
+  summary: Imlib2 based image viewer
+  maintainers:
+    - nia@netbsd.org
+  categories:
+    - graphics
 - repo: alpine_3_22
   subrepo: community
   srcname: feh
@@ -563,6 +598,12 @@
     - amosbird@aur
   licenses:
     - custom:MIT
+- repo: pld
+  srcname: feh
+  visiblename: feh
+  version: 3.12.1
+  origversion: 3.12.1-1
+  status: outdated
 - repo: artix
   subrepo: world
   srcname: feh
@@ -739,36 +780,6 @@
     - tille@debian.org
   categories:
     - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.6.3
-  origversion: 3.6.3-1
-  status: outdated
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.12.2
-  origversion: 3.12.2-1
-  status: outdated
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
 - repo: exherbo
   subrepo: rbrown
   srcname: media-gfx/feh
@@ -957,6 +968,21 @@
     - MIT
   categories:
     - Unspecified
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.1.3
+  origversion: 3.1.3-1
+  status: outdated
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - graphics
 - repo: freebsd
   srcname: graphics/feh
   binname: feh
@@ -1361,9 +1387,9 @@
   srcname: graphics/feh
   binname: feh
   visiblename: graphics/feh
-  version: 3.12.2
+  version: "3.13"
   origversion: null
-  status: outdated
+  status: newest
   summary: lightweight image viewer
   maintainers:
     - ports@openbsd.org
@@ -1575,39 +1601,6 @@
     - nia@netbsd.org
   categories:
     - graphics
-- repo: pkgsrc_current
-  srcname: graphics/feh
-  binname: feh
-  visiblename: graphics/feh
-  version: 3.12.4
-  origversion: null
-  status: outdated
-  summary: Imlib2 based image viewer
-  maintainers:
-    - nia@netbsd.org
-  categories:
-    - graphics
-- repo: pld
-  srcname: feh
-  visiblename: feh
-  version: 3.12.1
-  origversion: 3.12.1-1
-  status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.1.3
-  origversion: 3.1.3-1
-  status: outdated
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: feh
@@ -1683,21 +1676,6 @@
     - tille@debian.org
   categories:
     - graphics
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.6.3
-  origversion: 3.6.3-1
-  status: outdated
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - universe/graphics
 - repo: ravenports
   srcname: feh
   binname: feh
@@ -1877,6 +1855,21 @@
     - tille@debian.org
   categories:
     - universe/graphics
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.6.3
+  origversion: 3.6.3-1
+  status: outdated
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - universe/graphics
 - repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: feh
@@ -2002,6 +1995,125 @@
 - repo: aix_osp
   srcname: feh
   visiblename: feh
+  version: "2.4"
+  origversion: 2.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.5"
+  origversion: 2.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.6.1
+  origversion: 2.6.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.7"
+  origversion: 2.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.8"
+  origversion: 2.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.9.1
+  origversion: 2.9.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.9.3
+  origversion: 2.9.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.11"
+  origversion: 1.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.11.2
+  origversion: 1.11.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.12"
+  origversion: 1.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.13"
+  origversion: 1.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.14.1
+  origversion: 1.14.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.14"
+  origversion: 1.14-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.14.2
+  origversion: 1.14.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.15.1
+  origversion: 1.15.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.15"
+  origversion: 1.15-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
   version: 1.16.1
   origversion: 1.16.1-1
   status: legacy
@@ -2072,141 +2184,16 @@
 - repo: aix_osp
   srcname: feh
   visiblename: feh
+  version: "2.18"
+  origversion: 2.18-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
   version: 2.18.2
   origversion: 2.18.2-1
   status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.6.3
-  origversion: 2.6.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.7"
-  origversion: 2.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.8"
-  origversion: 2.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.9.1
-  origversion: 2.9.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.9.3
-  origversion: 2.9.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.13"
-  origversion: 1.13-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.14"
-  origversion: 1.14-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.14.2
-  origversion: 1.14.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.15.1
-  origversion: 1.15.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.10.1
-  origversion: 1.10.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.11"
-  origversion: 1.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.11.2
-  origversion: 1.11.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.12"
-  origversion: 1.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.4"
-  origversion: 2.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.5"
-  origversion: 2.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.6.1
-  origversion: 2.6.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.6"
-  origversion: 2.6-1
-  status: legacy
-  vulnerable: true
-- repo: cygwin
-  srcname: feh
-  binname: feh-debuginfo
-  visiblename: feh-debuginfo
-  version: 2.17.1
-  origversion: 2.17.1-1
-  status: outdated
-  summary: Lightweight image viewer
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Debug
   vulnerable: true
 - repo: cygwin
   srcname: feh
@@ -2220,6 +2207,19 @@
     - orphaned@cygwin
   categories:
     - Graphics
+  vulnerable: true
+- repo: cygwin
+  srcname: feh
+  binname: feh-debuginfo
+  visiblename: feh-debuginfo
+  version: 2.17.1
+  origversion: 2.17.1-1
+  status: outdated
+  summary: Lightweight image viewer
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Debug
   vulnerable: true
 - repo: gobolinux
   srcname: Feh
