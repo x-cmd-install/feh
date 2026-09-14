@@ -14,12 +14,12 @@ x install feh
 
 ## 代码洞察
 
-合计: **13,828** 行代码（覆盖前 5 种语言、共 **61** 个文件）。
+合计: **13,843** 行代码（覆盖前 5 种语言、共 **61** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 11,894 | 1,515 | 1,888 | 27 |
-| CHeader | 1,340 | 704 | 259 | 24 |
+| C | 11,908 | 1,521 | 1,889 | 27 |
+| CHeader | 1,341 | 704 | 259 | 24 |
 | Makefile | 290 | 13 | 68 | 5 |
 | Perl | 178 | 9 | 27 | 4 |
 | Svg | 97 | 9 | 1 | 1 |
@@ -30,8 +30,8 @@ x install feh
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (1/10) — Found 4/29 approved changesets -- score normalized to 1
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -46,37 +46,18 @@ x install feh
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 134 · **开放 PR**: 30 · **已关闭 issue**: 398 · **开放 issue**: 226 · **提交数**: 1671
+- **发布数**: 0 · **已合并 PR**: 134 · **开放 PR**: 30 · **已关闭 issue**: 399 · **开放 issue**: 225 · **提交数**: 1672
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 1 | 0 | 14 |
-| last60d | 2026-07-15 | 0 | 0 | 2 | 1 | 1 | 15 |
-| 90d | 2026-06-15 | 0 | 0 | 4 | 1 | 1 | 15 |
-| last180d | 2026-03-17 | 0 | 4 | 6 | 4 | 4 | 32 |
-| 360d | 2025-09-18 | 0 | 6 | 9 | 9 | 10 | 44 |
-| last720d | 2024-09-23 | 0 | 7 | 16 | 20 | 19 | 68 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/feh) 上共有 **202** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**112** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.12.2` | ⚠️ outdated |
-| Debian 14 | `3.12.2` | ⚠️ outdated |
-| Debian 13 | `3.10.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.11.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.10.1` | ⚠️ outdated |
-| Arch | `3.13` | ✅ latest |
-| Homebrew | `3.13` | ✅ latest |
-| Fedora rawhide | `3.12.4` | ⚠️ outdated |
-| Nix unstable | `3.12.4` | ⚠️ outdated |
-| Void | `3.12.2` | ⚠️ outdated |
-| Alpine edge | `3.12.4` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.11.1` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 1 | 0 | 15 |
+| last60d | 2026-07-16 | 0 | 0 | 2 | 1 | 1 | 16 |
+| 90d | 2026-06-16 | 0 | 0 | 4 | 1 | 1 | 16 |
+| last180d | 2026-03-18 | 0 | 4 | 6 | 4 | 4 | 33 |
+| 360d | 2025-09-19 | 0 | 6 | 9 | 10 | 9 | 45 |
+| last720d | 2024-09-24 | 0 | 7 | 16 | 21 | 18 | 69 |
 
 ## 改进这些数据
 
@@ -87,4 +68,4 @@ feh 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:25:53Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:33:11Z._

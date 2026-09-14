@@ -14,12 +14,12 @@ x install feh
 
 ## Code insight
 
-Total: **13,828** lines of code across **61** files in the top 5 languages.
+Total: **13,843** lines of code across **61** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 11,894 | 1,515 | 1,888 | 27 |
-| CHeader | 1,340 | 704 | 259 | 24 |
+| C | 11,908 | 1,521 | 1,889 | 27 |
+| CHeader | 1,341 | 704 | 259 | 24 |
 | Makefile | 290 | 13 | 68 | 5 |
 | Perl | 178 | 9 | 27 | 4 |
 | Svg | 97 | 9 | 1 | 1 |
@@ -30,8 +30,8 @@ Overall score: **3.9 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (1/10) — Found 4/29 approved changesets -- score normalized to 1
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -46,37 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 134 · **Open PRs**: 30 · **Closed issues**: 398 · **Open issues**: 226 · **Commits**: 1671
+- **Releases**: 0 · **Merged PRs**: 134 · **Open PRs**: 30 · **Closed issues**: 399 · **Open issues**: 225 · **Commits**: 1672
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 1 | 0 | 14 |
-| last60d | 2026-07-15 | 0 | 0 | 2 | 1 | 1 | 15 |
-| 90d | 2026-06-15 | 0 | 0 | 4 | 1 | 1 | 15 |
-| last180d | 2026-03-17 | 0 | 4 | 6 | 4 | 4 | 32 |
-| 360d | 2025-09-18 | 0 | 6 | 9 | 9 | 10 | 44 |
-| last720d | 2024-09-23 | 0 | 7 | 16 | 20 | 19 | 68 |
-
-## Distribution status
-
-Reported by **202** distros on [repology.org](https://repology.org/project/feh). **13** are ✅ on the latest upstream release, **112** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.12.2` | ⚠️ outdated |
-| Debian 14 | `3.12.2` | ⚠️ outdated |
-| Debian 13 | `3.10.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.11.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.10.1` | ⚠️ outdated |
-| Arch | `3.13` | ✅ latest |
-| Homebrew | `3.13` | ✅ latest |
-| Fedora rawhide | `3.12.4` | ⚠️ outdated |
-| Nix unstable | `3.12.4` | ⚠️ outdated |
-| Void | `3.12.2` | ⚠️ outdated |
-| Alpine edge | `3.12.4` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.11.1` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 1 | 0 | 15 |
+| last60d | 2026-07-16 | 0 | 0 | 2 | 1 | 1 | 16 |
+| 90d | 2026-06-16 | 0 | 0 | 4 | 1 | 1 | 16 |
+| last180d | 2026-03-18 | 0 | 4 | 6 | 4 | 4 | 33 |
+| 360d | 2025-09-19 | 0 | 6 | 9 | 10 | 9 | 45 |
+| last720d | 2024-09-24 | 0 | 7 | 16 | 21 | 18 | 69 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for feh lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:25:52Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:33:10Z._
