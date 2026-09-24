@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,916 · **Forks**: 172 · **Open issues**: 624 · **Contributors**: 71
+- **Stars**: 1,916 · **Forks**: 171 · **Open issues**: 624 · **Contributors**: 71
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 134 · **Open PRs**: 30 · **Closed issues**: 399 · **Open issues**: 225 · **Commits**: 1673
+- **Releases**: 0 · **Merged PRs**: 134 · **Open PRs**: 29 · **Closed issues**: 399 · **Open issues**: 225 · **Commits**: 1673
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 0 | 0 | 1 | 0 | 8 |
-| last60d | 2026-07-25 | 0 | 0 | 2 | 1 | 1 | 16 |
-| 90d | 2026-06-25 | 0 | 0 | 3 | 1 | 1 | 17 |
-| last180d | 2026-03-27 | 0 | 2 | 6 | 4 | 4 | 32 |
-| 360d | 2025-09-28 | 0 | 6 | 7 | 10 | 8 | 46 |
-| last720d | 2024-10-03 | 0 | 7 | 16 | 21 | 18 | 70 |
+| 30d | 2026-08-25 | 0 | 0 | 0 | 1 | 0 | 8 |
+| last60d | 2026-07-26 | 0 | 0 | 1 | 1 | 1 | 16 |
+| 90d | 2026-06-26 | 0 | 0 | 2 | 1 | 1 | 17 |
+| last180d | 2026-03-28 | 0 | 2 | 5 | 4 | 4 | 32 |
+| 360d | 2025-09-29 | 0 | 6 | 6 | 10 | 8 | 46 |
+| last720d | 2024-10-04 | 0 | 7 | 15 | 21 | 18 | 70 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for feh lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T05:38:55Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:14:27Z._
