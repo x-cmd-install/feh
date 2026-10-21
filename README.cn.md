@@ -30,8 +30,8 @@ x install feh
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (1/10) — Found 4/29 approved changesets -- score normalized to 1
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -42,7 +42,7 @@ x install feh
 
 ## 流行度
 
-- **Star**: 1,924 · **Fork**: 174 · **开放 issue**: 624 · **贡献者**: 71
+- **Star**: 1,925 · **Fork**: 174 · **开放 issue**: 624 · **贡献者**: 71
 
 ## 累计统计
 
@@ -52,12 +52,12 @@ x install feh
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-08-21 | 0 | 0 | 1 | 1 | 0 | 11 |
-| 90d | 2026-07-22 | 0 | 0 | 2 | 1 | 1 | 16 |
-| last180d | 2026-04-23 | 0 | 2 | 5 | 1 | 3 | 20 |
-| 360d | 2025-10-25 | 0 | 6 | 7 | 10 | 7 | 46 |
-| last720d | 2024-10-30 | 0 | 7 | 15 | 21 | 17 | 70 |
+| 30d | 2026-09-21 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-08-22 | 0 | 0 | 1 | 1 | 0 | 11 |
+| 90d | 2026-07-23 | 0 | 0 | 2 | 1 | 1 | 16 |
+| last180d | 2026-04-24 | 0 | 2 | 5 | 1 | 3 | 20 |
+| 360d | 2025-10-26 | 0 | 6 | 7 | 9 | 7 | 46 |
+| last720d | 2024-10-31 | 0 | 7 | 15 | 21 | 17 | 70 |
 
 ## 改进这些数据
 
@@ -68,4 +68,4 @@ feh 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261020.yml` · 2026-10-20T05:23:12Z._
+_数据快照: `data/card/261021.yml` · 2026-10-21T05:18:34Z._
