@@ -145,8 +145,8 @@
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: "2.5"
-  origversion: 2.5-1
+  version: "2.6"
+  origversion: 2.6-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -224,103 +224,6 @@
     - tille@debian.org
   categories:
     - graphics
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.13.1
-  origversion: 3.13.1-1
-  status: newest
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.6.3
-  origversion: 3.6.3-1
-  status: outdated
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.10.3
-  origversion: 3.10.3-1
-  status: outdated
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.9.1
-  origversion: 3.9.1-2
-  status: outdated
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
-- repo: raspbian_stable
-  subrepo: main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.10.3
-  origversion: 3.10.3-1
-  status: outdated
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
-- repo: raspbian_testing
-  subrepo: main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.13.1
-  origversion: 3.13.1-1
-  status: newest
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
-- repo: homebrew
-  srcname: feh
-  visiblename: feh
-  version: 3.13.1
-  origversion: null
-  status: newest
-  summary: X11 image viewer
 - repo: adelie_current
   subrepo: user
   srcname: feh
@@ -503,20 +406,8 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT-feh
-- repo: pkgsrc_current
-  srcname: graphics/feh
-  binname: feh
-  visiblename: graphics/feh
-  version: 3.13.1
-  origversion: null
-  status: newest
-  summary: Imlib2 based image viewer
-  maintainers:
-    - nia@netbsd.org
-  categories:
-    - graphics
-- repo: kali_rolling
-  subrepo: main
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: feh
   binnames:
     - feh
@@ -688,12 +579,6 @@
     - amosbird@aur
   licenses:
     - custom:MIT
-- repo: pld
-  srcname: feh
-  visiblename: feh
-  version: 3.13.1
-  origversion: 3.13.1-1
-  status: newest
 - repo: artix
   subrepo: world
   srcname: feh
@@ -961,20 +846,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.12.1
-  origversion: 3.12.1-1.fc42
-  status: outdated
-  summary: Fast command line image viewer using Imlib2
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: feh
   binnames:
@@ -988,15 +859,15 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
+- repo: fedora_42
+  subrepo: updates
   srcname: feh
   binnames:
     - feh
   visiblename: feh
-  version: 3.10.3
-  origversion: 3.10.3-3.fc43
-  status: legacy
+  version: 3.12.1
+  origversion: 3.12.1-1.fc42
+  status: outdated
   summary: Fast command line image viewer using Imlib2
   licenses:
     - MIT
@@ -1011,6 +882,20 @@
   version: 3.12.4
   origversion: 3.12.4-1.fc43
   status: outdated
+  summary: Fast command line image viewer using Imlib2
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.10.3
+  origversion: 3.10.3-3.fc43
+  status: legacy
   summary: Fast command line image viewer using Imlib2
   licenses:
     - MIT
@@ -1058,21 +943,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: feh
-  binnames:
-    - feh
-  visiblename: feh
-  version: 3.1.3
-  origversion: 3.1.3-1
-  status: outdated
-  maintainers:
-    - pkg-phototools-devel@lists.alioth.debian.org
-    - gcs@debian.org
-    - tille@debian.org
-  categories:
-    - graphics
 - repo: freebsd
   srcname: graphics/feh
   binname: feh
@@ -1153,6 +1023,28 @@
   origversion: null
   status: outdated
   summary: Fast and light imlib2-based image viewer
+- repo: homebrew
+  srcname: feh
+  visiblename: feh
+  version: 3.13.1
+  origversion: null
+  status: newest
+  summary: X11 image viewer
+- repo: kali_rolling
+  subrepo: main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.13.1
+  origversion: 3.13.1-1
+  status: newest
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - graphics
 - repo: liguros_stable
   srcname: media-gfx/feh
   visiblename: media-gfx/feh
@@ -1306,23 +1198,23 @@
   srcname: feh
   binname: feh
   visiblename: feh
-  version: 3.12.4
-  origversion: 3.12.4-1
+  version: "3.10"
+  origversion: 3.10-1
   status: outdated
   summary: Fast and light imlib2-based image viewer
   licenses:
-    - MIT
+    - custom:MIT
 - repo: manjaro_testing
   subrepo: extra
   srcname: feh
   binname: feh
   visiblename: feh
-  version: 3.13.1
-  origversion: 3.13.1-1
-  status: newest
+  version: "3.10"
+  origversion: 3.10-1
+  status: outdated
   summary: Fast and light imlib2-based image viewer
   licenses:
-    - MIT
+    - custom:MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: feh
@@ -1595,7 +1487,7 @@
   categories:
     - graphics
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: feh
   binnames:
     - feh
@@ -1610,7 +1502,7 @@
   categories:
     - graphics
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: feh
   binnames:
     - feh
@@ -1667,6 +1559,114 @@
   summary: Imlib2 based image viewer
   maintainers:
     - nia@netbsd.org
+  categories:
+    - graphics
+- repo: pkgsrc_current
+  srcname: graphics/feh
+  binname: feh
+  visiblename: graphics/feh
+  version: 3.13.1
+  origversion: null
+  status: newest
+  summary: Imlib2 based image viewer
+  maintainers:
+    - nia@netbsd.org
+  categories:
+    - graphics
+- repo: pld
+  srcname: feh
+  visiblename: feh
+  version: 3.13.1
+  origversion: 3.13.1-1
+  status: newest
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.1.3
+  origversion: 3.1.3-1
+  status: outdated
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - graphics
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.6.3
+  origversion: 3.6.3-1
+  status: outdated
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - graphics
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.10.3
+  origversion: 3.10.3-1
+  status: outdated
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - graphics
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.9.1
+  origversion: 3.9.1-2
+  status: outdated
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - graphics
+- repo: raspbian_stable
+  subrepo: main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.10.3
+  origversion: 3.10.3-1
+  status: outdated
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
+  categories:
+    - graphics
+- repo: raspbian_testing
+  subrepo: main
+  srcname: feh
+  binnames:
+    - feh
+  visiblename: feh
+  version: 3.13.1
+  origversion: 3.13.1-1
+  status: newest
+  maintainers:
+    - pkg-phototools-devel@lists.alioth.debian.org
+    - gcs@debian.org
+    - tille@debian.org
   categories:
     - graphics
 - repo: ravenports
@@ -1844,13 +1844,13 @@
   categories:
     - universe/graphics
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
+  subrepo: noble/universe
   srcname: feh
   binnames:
     - feh
   visiblename: feh
   version: 3.10.1
-  origversion: 3.10.1-1ubuntu0.1
+  origversion: 3.10.1-1build3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -1859,13 +1859,13 @@
   categories:
     - universe/graphics
 - repo: ubuntu_24_04
-  subrepo: noble/universe
+  subrepo: noble-updates/universe
   srcname: feh
   binnames:
     - feh
   visiblename: feh
   version: 3.10.1
-  origversion: 3.10.1-1build3
+  origversion: 3.10.1-1ubuntu0.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -1968,139 +1968,6 @@
 - repo: aix_osp
   srcname: feh
   visiblename: feh
-  version: "2.4"
-  origversion: 2.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.6"
-  origversion: 2.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.6.1
-  origversion: 2.6.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.6.3
-  origversion: 2.6.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.7"
-  origversion: 2.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "2.8"
-  origversion: 2.8-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.9.1
-  origversion: 2.9.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 2.9.3
-  origversion: 2.9.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.10.1
-  origversion: 1.10.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.11"
-  origversion: 1.11-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.11.2
-  origversion: 1.11.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.12"
-  origversion: 1.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.13"
-  origversion: 1.13-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.14.1
-  origversion: 1.14.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.14"
-  origversion: 1.14-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.14.2
-  origversion: 1.14.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.15.1
-  origversion: 1.15.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: "1.15"
-  origversion: 1.15-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
-  version: 1.16.1
-  origversion: 1.16.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: feh
-  visiblename: feh
   version: "1.16"
   origversion: 1.16-1
   status: legacy
@@ -2173,6 +2040,139 @@
   visiblename: feh
   version: 2.18.2
   origversion: 2.18.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.4"
+  origversion: 2.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.5"
+  origversion: 2.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.6.1
+  origversion: 2.6.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.6.3
+  origversion: 2.6.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.7"
+  origversion: 2.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "2.8"
+  origversion: 2.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.9.1
+  origversion: 2.9.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 2.9.3
+  origversion: 2.9.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.14.1
+  origversion: 1.14.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.14"
+  origversion: 1.14-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.14.2
+  origversion: 1.14.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.15.1
+  origversion: 1.15.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.15"
+  origversion: 1.15-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.16.1
+  origversion: 1.16.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.10.1
+  origversion: 1.10.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.11"
+  origversion: 1.11-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: 1.11.2
+  origversion: 1.11.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.12"
+  origversion: 1.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: feh
+  visiblename: feh
+  version: "1.13"
+  origversion: 1.13-1
   status: legacy
   vulnerable: true
 - repo: cygwin
