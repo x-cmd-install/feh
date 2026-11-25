@@ -26,13 +26,13 @@ Total: **13,843** lines of code across **61** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.9 / 10**
+Overall score: **3.8 / 10**
 
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Code-Review** (1/10) — Found 4/29 approved changesets -- score normalized to 1
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,927 · **Forks**: 178 · **Open issues**: 624 · **Contributors**: 71
+- **Stars**: 1,929 · **Forks**: 178 · **Open issues**: 624 · **Contributors**: 71
 
 ## Totals (cumulative)
 
@@ -52,31 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 2 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 2 | 1 | 0 | 7 |
-| last180d | 2026-05-28 | 0 | 0 | 5 | 1 | 1 | 17 |
-| 360d | 2025-11-29 | 0 | 6 | 8 | 9 | 6 | 46 |
-| last720d | 2024-12-04 | 0 | 7 | 16 | 21 | 13 | 69 |
-
-## Distribution status
-
-Reported by **202** distros on [repology.org](https://repology.org/project/feh). **39** are ✅ on the latest upstream release, **85** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.13.1` | ✅ latest |
-| Debian 14 | `3.13.1` | ✅ latest |
-| Debian 13 | `3.10.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.11.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.10.1` | ⚠️ outdated |
-| Arch | `3.13.1` | ✅ latest |
-| Homebrew | `3.13.1` | ✅ latest |
-| Fedora rawhide | `3.13.1` | ✅ latest |
-| Nix unstable | `3.13.1` | ✅ latest |
-| Void | `3.13.1` | ✅ latest |
-| Alpine edge | `3.13.1` | ✅ latest |
-| openSUSE Tumbleweed | `3.13.1` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 2 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 2 | 0 | 0 | 7 |
+| last180d | 2026-05-29 | 0 | 0 | 5 | 1 | 1 | 17 |
+| 360d | 2025-11-30 | 0 | 6 | 8 | 9 | 6 | 46 |
+| last720d | 2024-12-05 | 0 | 7 | 16 | 21 | 13 | 69 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for feh lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:32:58Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:48:49Z._
